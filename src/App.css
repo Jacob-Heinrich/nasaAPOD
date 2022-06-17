@@ -1,0 +1,100 @@
+.input{
+  background-color:rgba(52, 52, 52, 0.9);
+  position:relative;
+  left:15em;
+  border-radius:2em;
+  width:40em;
+  color:white;
+  padding:.5em;
+  text-align:left;
+  padding-left:5em;
+  opacity:90%;
+  box-shadow: 0px 0px 0px 4px;
+}
+
+.biSearch{
+  position:relative;
+  left:13.5em;
+  bottom:1.7em;
+}
+
+.mainPhoto{
+  scroll-behavior: smooth;
+  position:relative;
+  right:3em;
+  bottom:1em;
+  background-color:black;
+  height: 400em;
+  width:105%;
+}
+
+.photo{
+  margin-bottom:20em;
+}
+
+.photoTitle, .details, .photoExplanation{
+  margin-bottom:50em;
+}
+
+.photoTitle,.details,.photoExplanation{
+  opacity:80%
+}
+
+.photoTitle{
+  position:relative;
+  text-align:center;
+  top:25em;
+  text-decoration:none;
+}
+
+.details{
+  position:relative;
+  text-align: center;
+  top:15em;
+}
+
+.photoExplanation{
+  z-index:1;
+  display:flex;
+  text-align:center;
+  align-content:center;
+  justify-content:center;
+  position:relative;
+  top:15em;
+  left:28em;
+  max-width:40em;
+}
+
+.details a{
+  color:white;
+  text-decoration:none;
+  border:2px solid;
+  border-radius:2em;
+  padding:1em 1em;
+}
+
+section{
+  z-index:1;
+}
+
+
+
+.links{
+  z-index:999;
+  position:relative;
+  font-size: 50px;
+  margin-right:2em;
+  left:6em;
+  top:1em;
+  color:white;
+  opacity:30%;
+  text-decoration:none;
+}
+
+.links:hover{
+  opacity:100%;
+}
+
+.nav{
+  position:fixed;
+}

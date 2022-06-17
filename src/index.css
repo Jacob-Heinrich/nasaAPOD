@@ -1,0 +1,51 @@
+body{
+  background-image: url('./images/galaxy.jpg');
+  color:white;
+}
+
+.photo{
+  text-align:center;
+  display:block;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+  width:100%;
+  bottom:5em;
+}
+
+.nav{
+  height: 2em;
+}
+
+.homeLink{
+  color:#15F4EE;
+  position: relative;
+  left:80em;
+  top:1em;
+  text-decoration: none;
+  padding:2em;
+  padding-left:2em;
+  padding-right:2em;
+}
+
+.nasaLink{
+  background-color:rgba(52, 52, 52, 0.9);
+  border: 2px solid white;
+  color:white;
+  text-decoration:none;
+  border-radius:4em;
+  padding:.35em 2em;
+  position:absolute;
+  left:43.7em;
+  top:.01em;
+  z-index:999;
+}
+
+.nasaLink:hover{
+  opacity:100%;
+}
+
+
+.dateForm{
+  max-width:17em;
+}
